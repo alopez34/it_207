@@ -4,7 +4,7 @@
 # Setup Information #
 
 ## Windows users: ##
-1. Install Docker Toolbox for Windows with git bash option enabled.
+1. Install [Docker Toolbox for Windows](https://docs.docker.com/toolbox/toolbox_install_windows/) with git bash option enabled.
 1. Install [Virtualbox](https://www.virtualbox.org/) 
 1. Place .sh script in root directory of local site folder you want mounted and hosted on LAMP server.
 1. Double click script. See menu options. 
