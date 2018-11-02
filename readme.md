@@ -10,10 +10,10 @@
 1. Double click script. See menu options. 
 
 ## Mac Users: ##
-1. Install Docker for mac.
+1. Install [Docker for mac](https://docs.docker.com/v17.12/docker-for-mac/install/#download-docker-for-mac).
 1. Place .command script in root directory of local site folder you want mounted and hosted on LAMP server.
 1. Make script executable 
 	1. run "sudo chmod a+x [filename].command
 	1. Allow apps from unidentified developers for the current script. _Do not leave enabled_ 
-	1.Double click script. See menu options. 
+	1. Double click script. See menu options. 
 	
