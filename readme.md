@@ -1,6 +1,3 @@
-# Docker Repository #
-[https://hub.docker.com/r/alopez34/it_207/](https://hub.docker.com/r/alopez34/it_207/)
-
 # Setup Information #
 
 ## Windows Users: ##
@@ -16,4 +13,6 @@
 	1. run "sudo chmod a+x [filename].command
 	1. Allow apps from unidentified developers for the current script. _Do not leave enabled_ 
 	1. Double click script. See menu options. 
-	
+
+# Docker Repository #
+[https://hub.docker.com/r/alopez34/it_207/](https://hub.docker.com/r/alopez34/it_207/)
