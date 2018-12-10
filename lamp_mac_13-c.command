@@ -5,6 +5,9 @@ container_directory="/var/www/example.com/public_html"
 echo "=========================================================================="
 echo "Current Directory:" $current_directory
 echo "=========================================================================="
+printf -- '\033[32m		CHECKING Creating Database Directory\033[0m\n';
+echo "=========================================================================="
+mkdir -p databases
 echo "=========================================================================="
 printf -- '\033[32m		STARTING DOCKER-MACHINE\033[0m\n';
 echo "=========================================================================="
@@ -26,7 +29,10 @@ echo "==========================================================================
 docker pull alopez34/it_207:latest
 sleep 1s
 #MAIN RUN COMMAND HERE
-docker container run -d --name lamp  -p 80:80 --mount type=bind,source="/$current_directory",destination="//var/www/example.com/public_html" alopez34/it_207:latest
+docker container run -d --name lamp  -p 80:80 
+--mount type=bind,source="/$current_directory",destination="//var/www/example.com/public_html" 
+--mount type=bind,source="/$current_directory/databases",destination="//var/lib/mysql/exampleDB"
+alopez34/it_207:latest
 echo "=========================================================================="
 printf -- '\033[32m		RUNNING CONTAINERS \033[0m\n';
 echo "=========================================================================="
