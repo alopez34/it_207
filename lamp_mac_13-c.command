@@ -29,10 +29,7 @@ echo "==========================================================================
 docker pull alopez34/it_207:latest
 sleep 1s
 #MAIN RUN COMMAND HERE
-docker container run -d --name lamp  -p 80:80 
---mount type=bind,source="/$current_directory",destination="//var/www/example.com/public_html" 
---mount type=bind,source="/$current_directory/databases",destination="//var/lib/mysql/exampleDB"
-alopez34/it_207:latest
+docker container run -d --name lamp  -p 80:80 --mount type=bind,source="/$current_directory",destination="//var/www/example.com/public_html" --mount type=bind,source="/$current_directory/databases",destination="//var/lib/mysql/exampleDB" alopez34/it_207:latest
 echo "=========================================================================="
 printf -- '\033[32m		RUNNING CONTAINERS \033[0m\n';
 echo "=========================================================================="
