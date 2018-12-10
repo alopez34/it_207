@@ -7,7 +7,7 @@ echo "Current Directory:" $current_directory
 echo "=========================================================================="
 printf -- '\033[32m		CHECKING Creating Database Directory\033[0m\n';
 echo "=========================================================================="
-mkdir -p databases
+echo mkdir -p databases
 echo "=========================================================================="
 printf -- '\033[32m		STARTING DOCKER-MACHINE\033[0m\n';
 echo "=========================================================================="
