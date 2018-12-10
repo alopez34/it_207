@@ -9,3 +9,7 @@
 - apt-get udpate
 - apt-get install php5-mysql
 - php5enmod mysql
+
+### MYSQL config
+#### User: Admin
+#### Password: Admin2015
