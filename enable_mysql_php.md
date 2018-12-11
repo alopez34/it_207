@@ -12,5 +12,18 @@
 
 ### MYSQL config
 ___
-#### User: Admin
-#### Password: Admin2015
+#### User: ##### Admin
+
+#### Password:  #### Admin2015
+___
+Sample PHP code:
+
+`//create connectin with localhost database
+$connection = mysqli_connect("localhost", "root", "Admin2015", "exampleDB");
+
+//get resultset
+$result = mysqli_query($connection, "SELECT * FROM dog");
+
+while($record = mysqli_fetch_array($result)){
+    echo "<p> $record[0] </p>";
+}`
