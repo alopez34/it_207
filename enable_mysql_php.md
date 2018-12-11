@@ -26,4 +26,5 @@ $result = mysqli_query($connection, "SELECT * FROM dog");
 
 while($record = mysqli_fetch_array($result)){
     echo "<p> $record[0] </p>";
-}```
+}
+```
