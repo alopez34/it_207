@@ -12,9 +12,9 @@
 
 ### MYSQL config
 ___
-#### User: ##### Admin
+#### User: Admin
 
-#### Password:  #### Admin2015
+#### Password: Admin2015
 ___
 Sample PHP code:
 
